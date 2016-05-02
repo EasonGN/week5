@@ -96,9 +96,9 @@ em{
 	margin-left: 90px;
 	position: absolute;
 }
-.header a{
-	width: 171px;
-	height: 81px;
+.header img{
+	max-width: 100%;
+	height: auto;
 	display: block;
 }
 .header li{
@@ -148,6 +148,11 @@ em{
 	float: left;
 	margin-left: 100px;
 	margin-bottom: 20px;
+	
+}
+.slider img{
+	max-width: 100%;
+	height: auto;
 }
 .subject{
 	float: left;
@@ -295,4 +300,188 @@ em{
 .footer p{
 	font-family: 微軟正黑體;
 	margin-bottom:15px;
+}
+
+@media only screen and (max-width: 768px){
+
+.wrap{
+	width:100%;
+}
+
+.header{
+	width: 100%;
+	height: 140px;
+}
+
+.header h1{
+	float: none;
+	width: 171px;
+	margin-left: 40px;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+.link{
+	float: none;
+	position: relative;
+}
+
+.menu{
+	float: none;
+	bottom: 0px;
+
+}
+
+.menu ul li{
+	margin-left: 10px; 
+	float: left;
+}
+
+.content{
+	width: 100%;
+}
+
+.slider{
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+.subject{
+	float: none;
+    height: auto;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.main{
+	width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+	width: 580px;
+	margin-left: auto;
+    margin-right: auto;;
+}
+
+.event{
+	margin-bottom: 40px;
+}
+
+.event li p{
+	display: none;
+}
+
+.event h4{
+	display: none;
+}
+
+.list{
+	width: 350px;
+}
+
+.list li{
+	margin-left: 15px;
+}
+	
+.search{
+	width: 350px;
+}
+
+
+}
+@media only screen and (max-width: 320px){
+
+.wrap{
+	width:100%;
+	margin:0 0 0 0;
+}
+
+.header{
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 450px;
+}
+
+.header h1{
+	margin-bottom: 20px;
+}
+
+.link{
+	display: none;
+}
+
+.menu{
+	bottom: 2px;
+}
+.menu li{
+	width: 110%;
+	height: auto;
+	float: none;
+	background: #000;
+	text-align: center;
+	margin:0 auto 5px auto;	
+	border-radius:3px;
+	padding-top: 5px;
+}
+
+.menu li a{
+	width: 100%;
+	display: block;
+	color: #fff;
+	padding-top: 5px;
+}
+
+.menu a:hover{
+	background: #f00078;
+}
+
+.slider{
+	display: none;
+}
+
+.subject{
+	width: auto;
+}
+
+.main{
+	width: auto;
+}
+
+.container{
+	width: 100%;
+	height: 750px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.event{
+	width: 250px;
+}
+
+.event li p{
+	display: none;
+}
+
+.event h4{
+	display: none;
+}
+
+.list{
+	float: none;
+	width: 240px;
+	margin-left: 25px;
+	margin-top: 370px;
+}
+
+.search{
+	float: none;
+	margin-left: 25px;
+	width: 240px;
+	margin-bottom: 30px;
+}
 }
